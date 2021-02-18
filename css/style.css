@@ -52,7 +52,7 @@ nav .nav-right-section .menu-icon {
     margin-left: 1.5rem;
 }
 
-nav .nav-right-section img {
+header nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 2rem;
 }
@@ -62,7 +62,7 @@ main {
 }
 
 main .main-logo img {
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.7rem;
     margin-top: 17.5rem;
     width: 30.5rem;
 }
@@ -88,7 +88,7 @@ main .main-input .micro-icon {
 main .main-input {
     width: 53rem;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
 }
 
 main .main-input-container {
@@ -111,3 +111,28 @@ main .main-input input {
 main .main-input-container:hover {
     box-shadow: 0 0.1rem 0.6rem 0 #20212447;
 }
+
+main .main-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0 auto;
+}
+
+main .main-buttons button{
+    height: 3.6rem;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #1a1a1a;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+main .main-change-language {
+    margin-top: 3.5rem;
+    font-size: 14px;
+}
+
