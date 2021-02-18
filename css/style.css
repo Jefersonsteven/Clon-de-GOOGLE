@@ -56,3 +56,24 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 2rem;
 }
+
+main {
+    text-align: center;
+}
+
+main .main-logo img {
+    margin-bottom: 3.5rem;
+    margin-top: 17.5rem;
+    width: 30.5rem;
+}
+
+.main-input .search-icon {
+    background-color: blue;
+    background-image: url(https://eformation.univ-grenoble-alpes.fr/theme/boost/pix/fp/search.svg);
+}
+
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
