@@ -37,12 +37,12 @@ header nav .nav-right-section {
     align-items: center;
     list-style: none;
 }
-nav .nav-right-section a {
+header nav .nav-right-section a {
     margin-right: 1.5rem;
     color: black;
 }
 
-nav .nav-right-section .menu-icon {
+header nav .nav-right-section .menu-icon {
     background-image: url(https://static.thenounproject.com/png/2430250-200.png);
     background-repeat: no-repeat ;
     background-position: center;
@@ -136,3 +136,6 @@ main .main-change-language {
     font-size: 14px;
 }
 
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+}
