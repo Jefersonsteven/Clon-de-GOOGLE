@@ -67,13 +67,47 @@ main .main-logo img {
     width: 30.5rem;
 }
 
-.main-input .search-icon {
-    background-color: blue;
-    background-image: url(https://eformation.univ-grenoble-alpes.fr/theme/boost/pix/fp/search.svg);
+main .main-input .search-icon {
+    background-image: url("https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-icono-de-b-squeda-by-vexels.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+main .main-input .micro-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
 main .main-input {
     width: 53rem;
     margin: 0 auto;
     margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .main-input input {
+    width: 45rem;
+    height: 4.5rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
 }
